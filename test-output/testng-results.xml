@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="11" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-01T15:30:54 EET" name="Default Suite" finished-at="2023-02-01T15:31:13 EET" duration-ms="19402">
+    <groups>
+    </groups>
+    <test started-at="2023-02-01T15:30:54 EET" name="myfirstframework" finished-at="2023-02-01T15:31:13 EET" duration-ms="19402">
+      <class name="tests.gusetcheckouttest">
+        <test-method is-config="true" signature="startdriver(java.lang.String)[pri:0, instance:tests.gusetcheckouttest@54c562f7]" started-at="2023-02-01T15:30:49 EET" name="startdriver" finished-at="2023-02-01T15:30:54 EET" duration-ms="5015" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startdriver -->
+        <test-method signature="usersearchforproduct()[pri:1, instance:tests.gusetcheckouttest@54c562f7]" started-at="2023-02-01T15:30:54 EET" name="usersearchforproduct" finished-at="2023-02-01T15:30:59 EET" duration-ms="5208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usersearchforproduct -->
+        <test-method is-config="true" signature="screenshotonfailure(org.testng.ITestResult)[pri:0, instance:tests.gusetcheckouttest@54c562f7]" started-at="2023-02-01T15:30:59 EET" name="screenshotonfailure" finished-at="2023-02-01T15:30:59 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=usersearchforproduct status=SUCCESS method=gusetcheckouttest.usersearchforproduct()[pri:1, instance:tests.gusetcheckouttest@54c562f7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotonfailure -->
+        <test-method signature="usercanaddproducttocart()[pri:0, instance:tests.gusetcheckouttest@54c562f7]" started-at="2023-02-01T15:30:59 EET" name="usercanaddproducttocart" finished-at="2023-02-01T15:31:00 EET" depends-on-methods="tests.gusetcheckouttest.usersearchforproduct" duration-ms="1414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usercanaddproducttocart -->
+        <test-method is-config="true" signature="screenshotonfailure(org.testng.ITestResult)[pri:0, instance:tests.gusetcheckouttest@54c562f7]" started-at="2023-02-01T15:31:00 EET" name="screenshotonfailure" finished-at="2023-02-01T15:31:00 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=usercanaddproducttocart status=SUCCESS method=gusetcheckouttest.usercanaddproducttocart()[pri:0, instance:tests.gusetcheckouttest@54c562f7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotonfailure -->
+        <test-method signature="usercancheckoutasguest()[pri:0, instance:tests.gusetcheckouttest@54c562f7]" started-at="2023-02-01T15:31:00 EET" name="usercancheckoutasguest" finished-at="2023-02-01T15:31:08 EET" depends-on-methods="tests.gusetcheckouttest.usercanaddproducttocart" duration-ms="7326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usercancheckoutasguest -->
+        <test-method is-config="true" signature="screenshotonfailure(org.testng.ITestResult)[pri:0, instance:tests.gusetcheckouttest@54c562f7]" started-at="2023-02-01T15:31:08 EET" name="screenshotonfailure" finished-at="2023-02-01T15:31:08 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=usercancheckoutasguest status=SUCCESS method=gusetcheckouttest.usercancheckoutasguest()[pri:0, instance:tests.gusetcheckouttest@54c562f7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotonfailure -->
+        <test-method is-config="true" signature="stopdriver()[pri:0, instance:tests.gusetcheckouttest@54c562f7]" started-at="2023-02-01T15:31:13 EET" name="stopdriver" finished-at="2023-02-01T15:31:13 EET" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopdriver -->
+      </class> <!-- tests.gusetcheckouttest -->
+      <class name="tests.addtocarttest">
+        <test-method signature="usersearchforproduct()[pri:0, instance:tests.addtocarttest@2bbf180e]" started-at="2023-02-01T15:31:08 EET" name="usersearchforproduct" finished-at="2023-02-01T15:31:12 EET" duration-ms="4001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usersearchforproduct -->
+        <test-method is-config="true" signature="screenshotonfailure(org.testng.ITestResult)[pri:0, instance:tests.addtocarttest@2bbf180e]" started-at="2023-02-01T15:31:12 EET" name="screenshotonfailure" finished-at="2023-02-01T15:31:12 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=usersearchforproduct status=SUCCESS method=addtocarttest.usersearchforproduct()[pri:0, instance:tests.addtocarttest@2bbf180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotonfailure -->
+        <test-method signature="usercanaddproducttocart()[pri:0, instance:tests.addtocarttest@2bbf180e]" started-at="2023-02-01T15:31:12 EET" name="usercanaddproducttocart" finished-at="2023-02-01T15:31:13 EET" depends-on-methods="tests.addtocarttest.usersearchforproduct" duration-ms="1386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usercanaddproducttocart -->
+        <test-method is-config="true" signature="screenshotonfailure(org.testng.ITestResult)[pri:0, instance:tests.addtocarttest@2bbf180e]" started-at="2023-02-01T15:31:13 EET" name="screenshotonfailure" finished-at="2023-02-01T15:31:13 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=usercanaddproducttocart status=SUCCESS method=addtocarttest.usercanaddproducttocart()[pri:0, instance:tests.addtocarttest@2bbf180e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotonfailure -->
+      </class> <!-- tests.addtocarttest -->
+    </test> <!-- myfirstframework -->
+  </suite> <!-- Default Suite -->
+</testng-results>
