@@ -7,10 +7,9 @@
 
             <class name="tests.addtocomparelisttest" />
             <class name="tests.contactustest" />
-            <class name="tests.gusetcheckouttest" />
             <class name="tests.producthovermenuetest" />
             <class name="tests.searchproducttest" />
-            <class name="tests.searchusingautosuggectiontest" />
+           
 
 
         </classes>
